@@ -1,6 +1,12 @@
 # GodotNodePathTracker
 A node to track and update in editor-time the NodePath of selected Nodes in the scene.
 
+Tracking NodePaths in realtime:
+![](demo/tracking-nodepaths.gif)
+
+Sanity checking NodePaths for empty references:
+![](demo/error-message.gif)
+
 
 ## How to install
 
