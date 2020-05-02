@@ -46,9 +46,9 @@ __meta__ = {
 
 [node name="ButtonA" type="Button" parent="LeftColumn/VBoxContainer"]
 margin_left = 131.0
-margin_top = 220.0
+margin_top = 221.0
 margin_right = 381.0
-margin_bottom = 270.0
+margin_bottom = 271.0
 rect_min_size = Vector2( 250, 50 )
 size_flags_horizontal = 4
 size_flags_vertical = 4
@@ -56,9 +56,9 @@ text = "Button A"
 
 [node name="ButtonB" type="Button" parent="LeftColumn/VBoxContainer"]
 margin_left = 131.0
-margin_top = 274.0
+margin_top = 275.0
 margin_right = 381.0
-margin_bottom = 324.0
+margin_bottom = 325.0
 rect_min_size = Vector2( 250, 50 )
 size_flags_horizontal = 4
 size_flags_vertical = 4
@@ -66,9 +66,9 @@ text = "Button B"
 
 [node name="ButtonC" type="Button" parent="LeftColumn/VBoxContainer"]
 margin_left = 131.0
-margin_top = 328.0
+margin_top = 329.0
 margin_right = 381.0
-margin_bottom = 378.0
+margin_bottom = 379.0
 rect_min_size = Vector2( 250, 50 )
 size_flags_horizontal = 4
 size_flags_vertical = 4
@@ -92,9 +92,9 @@ __meta__ = {
 
 [node name="ButtonD" type="Button" parent="RightColumn/VBoxContainer"]
 margin_left = 131.0
-margin_top = 220.0
+margin_top = 221.0
 margin_right = 381.0
-margin_bottom = 270.0
+margin_bottom = 271.0
 rect_min_size = Vector2( 250, 50 )
 size_flags_horizontal = 4
 size_flags_vertical = 4
@@ -102,9 +102,9 @@ text = "Button D"
 
 [node name="ButtonE" type="Button" parent="RightColumn/VBoxContainer"]
 margin_left = 131.0
-margin_top = 274.0
+margin_top = 275.0
 margin_right = 381.0
-margin_bottom = 324.0
+margin_bottom = 325.0
 rect_min_size = Vector2( 250, 50 )
 size_flags_horizontal = 4
 size_flags_vertical = 4
@@ -112,9 +112,9 @@ text = "Button E"
 
 [node name="ButtonF" type="Button" parent="RightColumn/VBoxContainer"]
 margin_left = 131.0
-margin_top = 328.0
+margin_top = 329.0
 margin_right = 381.0
-margin_bottom = 378.0
+margin_bottom = 379.0
 rect_min_size = Vector2( 250, 50 )
 size_flags_horizontal = 4
 size_flags_vertical = 4
