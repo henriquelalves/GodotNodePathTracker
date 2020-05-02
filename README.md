@@ -1,4 +1,7 @@
 # NodePathTracker
+
+*For more addons, check [my GitHub](https://github.com/henriquelalves) and [my itch.io](https://perons.itch.io/) page.*
+
 A node to track and update in editor-time the NodePath of selected Nodes in the scene.
 
 Tracking NodePaths in realtime:
