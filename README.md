@@ -16,7 +16,7 @@ Add the addon on your Godot project (you may copy the addon from this project fo
 
 ## How to use it
 
-The addon will create a new node to use called "NodePathTracker", which inherits "Node". The NodePathTracker has an array of editable NodePaths that once set, will always update the paths of the nodes, even when you change them in the editor or rename them. To get those referenced nodes, you can call the `get_nodes` (returns the corresponding array of Nodes) or `get_node_by_name` (returns the first node with the name being looked for, or null).
+The addon will create a new node to use called "NodePathTracker", which inherits "Node". The NodePathTracker has an array of editable NodePaths that once set, will always update the paths of the nodes, even when you change them in the editor or rename them. To get those referenced nodes, you can call the `get_nodes` (returns the corresponding array of Nodes) or `get_node_by_name` (returns the first node with the name being looked for, `null` otherwise).
 
 ## Why using it
 
