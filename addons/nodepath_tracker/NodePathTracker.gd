@@ -1,6 +1,8 @@
 tool
 extends Node
 
+class_name NodePathTracker
+
 export(Array, NodePath) var nodepaths setget set_nodepaths
 
 var _nodes : Array
@@ -19,6 +21,14 @@ func get_node_by_name(node_name : String):
 		if (node.name == node_name):
 			return node
 	return null
+
+func check_sanity():
+	var check_ok = true
+	for node_index in range(_nodes.size()):
+		if _nodes[node_index] == null or not _nodes[node_index].is_inside_tree():
+			check_ok = false
+			print("NodePath " + str(node_index) + " (" + str(nodepaths[node_index]) + ") no longer exists.")
+	return check_ok
 
 func _update_nodes_array():
 	_nodes.clear()

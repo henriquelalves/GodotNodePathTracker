@@ -1,0 +1,69 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://addons/nodepath_tracker/NodePathTrackerMenuButton.gd" type="Script" id=1]
+[ext_resource path="res://addons/nodepath_tracker/icon_import_fail.png" type="Texture" id=2]
+[ext_resource path="res://addons/nodepath_tracker/icon_import_check.png" type="Texture" id=3]
+[ext_resource path="res://addons/nodepath_tracker/nodepath_tracker_icon.png" type="Texture" id=4]
+
+[node name="NodePathTrackerButton" type="Button"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+text = "Check NodePaths Sanity"
+icon = ExtResource( 4 )
+flat = true
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="NodePathsOK" type="HBoxContainer" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+anchor_right = 1.0
+margin_top = -30.093
+margin_bottom = -14.093
+mouse_filter = 2
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="NodePathsOK"]
+margin_left = 442.0
+margin_right = 458.0
+margin_bottom = 16.0
+texture = ExtResource( 3 )
+
+[node name="Label" type="Label" parent="NodePathsOK"]
+margin_left = 462.0
+margin_top = 1.0
+margin_right = 582.0
+margin_bottom = 15.0
+text = "NodePaths are OK!"
+align = 1
+valign = 1
+
+[node name="NodePathsError" type="HBoxContainer" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+anchor_right = 1.0
+margin_top = -30.093
+margin_bottom = -14.093
+mouse_filter = 2
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="NodePathsError"]
+margin_left = 398.0
+margin_right = 414.0
+margin_bottom = 16.0
+texture = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="NodePathsError"]
+margin_left = 418.0
+margin_top = 1.0
+margin_right = 625.0
+margin_bottom = 15.0
+text = "NodePaths error, check console!"
+align = 1
+valign = 1
