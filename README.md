@@ -1,4 +1,4 @@
-# GodotNodePathTracker
+# NodePathTracker
 A node to track and update in editor-time the NodePath of selected Nodes in the scene.
 
 Tracking NodePaths in realtime:
